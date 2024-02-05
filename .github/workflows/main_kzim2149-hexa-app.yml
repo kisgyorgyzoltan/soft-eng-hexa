@@ -42,6 +42,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: kzim2149-hexa-app
+          path: '${{ github.workspace }}/build'
       
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
