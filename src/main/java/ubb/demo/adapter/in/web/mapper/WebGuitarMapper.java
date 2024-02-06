@@ -1,4 +1,4 @@
-package ubb.demo.adapter.in.web;
+package ubb.demo.adapter.in.web.mapper;
 
 import org.mapstruct.IterableMapping;
 import org.mapstruct.Mapper;
@@ -8,6 +8,7 @@ import ubb.demo.adapter.in.web.dto.GetSimpleGuitarDTO;
 import ubb.demo.application.domain.model.Guitar;
 
 import java.util.Collection;
+
 
 @Mapper(componentModel = "spring")
 public interface WebGuitarMapper {

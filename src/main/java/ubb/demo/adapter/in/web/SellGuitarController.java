@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import ubb.demo.adapter.in.web.mapper.WebGuitarMapper;
 import ubb.demo.application.domain.model.Guitar;
 import ubb.demo.application.port.in.SellGuitarUseCase;
 import ubb.demo.common.WebAdapter;
