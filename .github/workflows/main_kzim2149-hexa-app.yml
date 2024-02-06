@@ -31,7 +31,7 @@ jobs:
      with:
        azure-subscription: ${{ env.AZURE_SUBSCRIPTION }}
        action: Deploy
-       service-name: kzim2149-hexa-app
-       app-name: kzim2149-hexa-app
+       service-name: kzim2149-hexademo-app
+       app-name: kzim2149-hexademo-app
        use-staging-deployment: false
        package: ${{ env.ASC_PACKAGE_PATH }}/application/**/application0.0.1-SNAPSHOT.jar
