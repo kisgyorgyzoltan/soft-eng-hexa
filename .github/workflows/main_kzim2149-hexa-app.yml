@@ -51,6 +51,6 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'kzim2149-hexademo-app'
+          app-name: 'kzim2149-demo-app'
           slot-name: 'Production'
           package: 'demo-0.0.1-SNAPSHOT.jar'
